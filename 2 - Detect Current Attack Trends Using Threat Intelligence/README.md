@@ -17,4 +17,6 @@
 
 
 ## [+] Does it Impact your organization?
-If the threat intel report is relevant to your organization, here are some steps to be more proactive to detect and mitigate any threats coming your way. If it does, follow the next two methods to harden your defense.
+If the threat intel report is relevant to your organization, here are some steps to be more proactive to detect and mitigate any threats coming your way. If it does, follow the next two methods to harden your defense. Follow the two procedures.
+- [How to Detect IOC](https://github.com/nguyentimmy/Detection-Engineering/blob/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Detecting%20IOC.md)
+- - [How to Detect MITRE TTP](https://github.com/nguyentimmy/Detection-Engineering/blob/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Detection%20on%20MITRE%20ATT%26CK%20Techniques.md)
