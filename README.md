@@ -1,6 +1,6 @@
 # Detection Engineering: 
 
-Detection engineering is the process of identifying and mitigating security threats by designing, implementing, and continually improving the SIEM and EDR solutions. 
+Detection engineering is the process of identifying and mitigating security threats by designing, implementing, and continually improving the SIEM and EDR solutions capabilities. 
 
 You can use any security framework to identify security gaps, in this case I will use the MITRE ATT@CK framework to perform deeper analysis. But first thing, let's break things to smaller pieces, we must identify: 
 - What do I need to detect?
@@ -8,7 +8,7 @@ You can use any security framework to identify security gaps, in this case I wil
 - What threat actors, techniques, tools, can be relevant to us?
 - What are the current attack trends and known exploited vulnerabilities? 
 
-In this project, I will use Microsoft Sentinel and M365 Defender as my security solutions implement Detection Engineering.
+In this project, I will use Microsoft Sentinel and M365 Defender as my security solutions implement to Detection Engineering.
 
 ## [+] Scope
 1. This project aims to enhance the organization's detection and response capabilities through a comprehensive approach that includes MITRE ATT&CK framework and Threat Intelligence.
