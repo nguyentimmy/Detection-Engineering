@@ -8,6 +8,8 @@ You can use any security framework to identify security gaps, in this case I wil
 - What threat actors, techniques, tools, can be relevant to us?
 - What are the current attack trends and known exploited vulnerabilities? 
 
+In this project, I will use Microsoft Sentinel and M365 Defender as my security solutions implement Detection Engineering.
+
 ## [+] Scope
 1. This project aims to enhance the organization's detection and response capabilities through a comprehensive approach that includes MITRE ATT&CK framework and Threat Intelligence.
 
