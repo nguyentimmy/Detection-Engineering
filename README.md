@@ -19,7 +19,7 @@ You can use any security framework to identify security gaps, in this case I wil
  
  > By creating and testing detection mechanisms, security teams can better identify and respond to security incidents before they result in a major breach.
 
-2. ***Evaluating Enterprise Endpoint and SIEM Detection:*** to ensure they are detecting and alerting on relevant security events. 
+2. ***Evaluating Enterprise Endpoint and SIEM Detection:*** Ensure they are detecting and alerting on relevant security events. 
 > This includes setting up alert policies that trigger notifications when certain events occur or attack goes undetected.
 
 3. ***Effective Alert Policies:*** Helps to create more effective alert policies by identifying the most critical events that require immediate attention. 
