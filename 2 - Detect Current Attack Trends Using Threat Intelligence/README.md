@@ -23,10 +23,16 @@ In this case, I will be use Defender for Endpoint as my EDR solution to create a
 Use the list of IOC provided by your threat intel or open source feed. In my case I will use Microsoft Threat Intel for my IOC. 
 ![Image](https://github.com/nguyentimmy/Detection-Engineering/blob/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Photos/IOC-Coinminer.png)
 
-### II.
+### II. Creating the Query based on your needs
+Alternatively
+![Image](https://github.com/nguyentimmy/Detection-Engineering/blob/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Photos/IOC-Steps.png)
+
+There's multiple ways you can query.
+
+[IOC Parser](https://tdm.socprime.com/uncoder-cti/)
 
 ### III. 
-..
+
 ## [+] Detection on MITRE ATT&CK Techniques 
 
 ### I. Proactive Research on the Techniques
