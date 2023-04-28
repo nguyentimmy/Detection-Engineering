@@ -13,7 +13,7 @@
 
 3. Determine which MITRE ATT&CK techniques are being used by the APT groups and threat actors mentioned in the report. Identify the specific vulnerabilities, devices, or company assets being exploited by these techniques.
 > Learning the TTP the attackers will use can help you proactively be ahead of the game by creating a detection based on their known attack patterns
-- [How to Detect MTIRE TTP](https://github.com/nguyentimmy/Detection-Engineering/blob/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Detection%20on%20MITRE%20ATT%26CK%20Techniques.md)
+- [How to Detect MITRE TTP](https://github.com/nguyentimmy/Detection-Engineering/blob/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Detection%20on%20MITRE%20ATT%26CK%20Techniques.md)
 
 
 ## [+] Does it Impact your organization?
