@@ -1,9 +1,21 @@
 # I. Detection Engineering: 
 
+You can use any framework to identify gaps, in this case I will use the MITRE ATT@CK framework to perform deeper analysis. But first to break things to smaller pieces, we must identify: 
+- What do I need to detect?
+- What relevant assets are in our environment? 
+- What threat actors, techniques, tools, can be relevant to us?
+- What are the current attack trends and known exploited vulnerabilities? 
+
+What do I need to detect?
+What threat actors, techniques, tools, etc., are relevant to us?
+How can I demonstrate the relevance to the business?
+
+
 ## [+] Scope
 1. This project aims to enhance the organization's detection and response capabilities through a comprehensive approach that includes MITRE ATT&CK framework and Threat Intelligence.
 
 2. The goal of detection engineering is to design, develop, and implement effective security solutions that can detect and respond to potential threats in a timely and efficient manner. 
+
 
 ## [+] Benefits
 1. ***Proactive Security:*** Focuses on identifying and closing gaps in an organization's security posture. 
@@ -22,9 +34,14 @@
 5. ***Concised and Refined Incident Response:*** Helps the security team identify threats efficently and identify them before damage can be done. 
 > Help the Security Team be more proactive
 
+
 # II. Automating MITRE ATT&CK Using Atomic Red Team
 
+
 # III. Detect Current Attack Trends Using Threat Intelligence 
+
+
+
 
 # IV. TBA
 ## [+] Continuous Improvement Plans (TBA - More Plans Coming Soon!)
