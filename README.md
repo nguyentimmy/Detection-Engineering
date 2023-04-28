@@ -6,7 +6,7 @@
 2. The goal of detection engineering is to design, develop, and implement effective security solutions that can detect and respond to potential threats in a timely and efficient manner. 
 
 ## [+] Benefits
-1. ***Proactive Security:*** Focuses on identifying and closing gaps in an organization's security posture. 
+1. **Proactive Security:** Focuses on identifying and closing gaps in an organization's security posture. 
   - *By creating and testing detection mechanisms, security teams can better identify and respond to security incidents before they result in a major breach.*
 
 2. **Evaluating Enterprise Endpoint and SIEM Detection:** to ensure they are detecting and alerting on relevant security events. 
@@ -22,4 +22,7 @@
 - *Help the Security Team be more proactive*
 
 
+## [+] Continuous Improvement Plans
+1. **Creating automation on SOAR playbooks:** SOAR playbooks automate response actions to security incidents based on detection and incidents. Review, update, and create playbooks to respond
 
+*2. More Coming Soon!*
