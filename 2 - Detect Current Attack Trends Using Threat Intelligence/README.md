@@ -1,4 +1,4 @@
-# Using a Threal Intel Feed
+# Intergrating Threat Intelligence
 
 **Read the steps by the coresponding numbers on the screenshot for a better understanding.**
 
