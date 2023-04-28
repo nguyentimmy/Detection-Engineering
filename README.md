@@ -1,4 +1,4 @@
-# I. Detection Engineering: 
+# Detection Engineering: 
 
 Detection engineering is the process of identifying and mitigating security threats by designing, implementing, and continually improving the SIEM and EDR solutions. 
 
@@ -32,10 +32,10 @@ You can use any security framework to identify gaps, in this case I will use the
 > Help the Security Team be more proactive
 
 
-# II. Automating MITRE ATT&CK Using Atomic Red Team
+# I. Automating MITRE ATT&CK Using Atomic Red Team
 
 
-# III. Detect Current Attack Trends Using Threat Intelligence 
+# II. Detect Current Attack Trends Using Threat Intelligence 
 
 
 
