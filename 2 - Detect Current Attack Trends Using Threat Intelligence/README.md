@@ -11,13 +11,22 @@
 3. Determine which MITRE ATT&CK techniques are being used by the APT groups and threat actors mentioned in the report. Identify the specific vulnerabilities, devices, or company assets being exploited by these techniques.
   > Learning the TTP the attackers will use can help you proactively be ahead of the game by creating a detection based on their known attack patterns
 
+
 ## [+] Does it Impact your organization?
 If the threat intel report is relevant to your organization, here are some steps to be more proactive to detect and mitigate any threats coming your way. If it does, follow the next two methods to harden your defense.
 
-## [+] Detecting IOC
+## [+] Detecting IOC 
 
 In this case, I will be use Defender for Endpoint as my EDR solution to create a detection alert and threat hunting query (Which can be beneficial for the threat hunters or SOC).
 
+### I. Using the IOC from your threat intel feed 
+Use the list of IOC provided by your threat intel or open source feed. In my case I will use Microsoft Threat Intel for my IOC. 
+![Image](https://github.com/nguyentimmy/Detection-Engineering/blob/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Photos/IOC-Coinminer.png)
+
+### II.
+
+### III. 
+..
 ## [+] Detection on MITRE ATT&CK Techniques 
 
 ### I. Proactive Research on the Techniques
