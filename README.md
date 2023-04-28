@@ -11,7 +11,7 @@
  > By creating and testing detection mechanisms, security teams can better identify and respond to security incidents before they result in a major breach.
 
 2. ***Evaluating Enterprise Endpoint and SIEM Detection:*** to ensure they are detecting and alerting on relevant security events. 
-> This includes setting up alert policies that trigger notifications when certain events occur
+> This includes setting up alert policies that trigger notifications when certain events occur or attack goes undetected.
 
 3. ***Effective Alert Policies:*** Helps to create more effective alert policies by identifying the most critical events that require immediate attention. 
 > This helps to reduce alert fatigue and improve the efficiency of security teams in responding to security incidents.
