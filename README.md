@@ -1,4 +1,4 @@
-# Detection Engineering: 
+# Detection Engineering Program: 
 
 Detection engineering is the process of identifying and mitigating security threats by designing, implementing, and continually improving the SIEM and EDR solutions capabilities. 
 
