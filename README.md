@@ -42,4 +42,5 @@ In this project, I will use Microsoft Sentinel and M365 Defender as my security 
 
 > Please read: :link: [Intergrating Threat Intelligence](https://github.com/nguyentimmy/Detection-Engineering/tree/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence) :exclamation:
 
-
+### III. Continuous Improvement Development 
+> In Progress - TBA  :exclamation:
