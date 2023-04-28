@@ -28,10 +28,10 @@ In this project, I will use Microsoft Sentinel and M365 Defender as my security 
 > This helps to reduce alert fatigue and improve the efficiency of security teams in responding to security incidents.
 
 4. ***Improve Skillsets:*** Helps the Detection Enginner or security team understand the flow of an attack. 
-> Improves the function of creating queries, alert policies, and overall response.
+> Improves the overall skillsets by creating queries, alert policies, and overall response.
 
 5. ***Concised and Refined Incident Response:*** Helps the security team identify threats efficently and identify them before damage can be done. 
-> Help the Security Team be more proactive
+> Help the Security Team be more proactive.
 
 ## [+] Procedures
 ### I. Automating MITRE ATT&CK Using Atomic Red Team
