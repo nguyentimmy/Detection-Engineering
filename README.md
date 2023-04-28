@@ -1,8 +1,8 @@
 # I. Detection Engineering: 
 
-Detection engineering is the process of identifying and mitigating security threats by designing, implementing, and continually improving detection systems. 
+Detection engineering is the process of identifying and mitigating security threats by designing, implementing, and continually improving the SIEM and EDR solutions. 
 
-You can use any framework to identify gaps, in this case I will use the MITRE ATT@CK framework to perform deeper analysis. But first thing, let's break things to smaller pieces, we must identify: 
+You can use any security framework to identify gaps, in this case I will use the MITRE ATT@CK framework to perform deeper analysis. But first thing, let's break things to smaller pieces, we must identify: 
 - What do I need to detect?
 - What critical assets are in our environment to protect? 
 - What threat actors, techniques, tools, can be relevant to us?
@@ -39,10 +39,3 @@ You can use any framework to identify gaps, in this case I will use the MITRE AT
 
 
 
-
-# IV. TBA
-## [+] Continuous Improvement Plans (TBA - More Plans Coming Soon!)
-1. **Creating automation on SOAR playbooks:** SOAR playbooks automate response actions to security incidents based on detection and incidents. Review, update, and create playbooks to respond
-
-2. *More Coming Soon!*
-> More Random Ideas: Concised Notification Automation (Teams, Slack, Emails), Threat Hunt Automations, Actual Pentest to Mimic activity of APT
