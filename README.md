@@ -36,10 +36,10 @@ In this project, I will use Microsoft Sentinel and M365 Defender as my security 
 ## [+] Procedures
 ### I. Automating MITRE ATT&CK Using Atomic Red Team
 
-> Please read: [Integrating MITRE ATT&CK](https://github.com/nguyentimmy/Detection-Engineering/tree/main/1%20-%20Automating%20MITRE%20ATT%26CK%20Using%20Atomic%20Red%20Team)
+> Please read: :link: [Integrating MITRE ATT&CK](https://github.com/nguyentimmy/Detection-Engineering/tree/main/1%20-%20Automating%20MITRE%20ATT%26CK%20Using%20Atomic%20Red%20Team) :exclamation:
 
 ### II. Detect Current Attack Trends Using Threat Intelligence 
 
-> Please read: [Intergrating Threat Intelligence](https://github.com/nguyentimmy/Detection-Engineering/tree/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence)
+> Please read: :link: [Intergrating Threat Intelligence](https://github.com/nguyentimmy/Detection-Engineering/tree/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence) :exclamation:
 
 
