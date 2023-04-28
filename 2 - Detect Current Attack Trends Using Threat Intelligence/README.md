@@ -23,3 +23,5 @@ In this case, I will be use Defender for Endpoint as my solution to create a det
 For this quick demo, I will use one of the techniques 
 
 ![Image](https://github.com/nguyentimmy/Detection-Engineering/blob/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Photos/T1059-APT.png)
+
+![Image](https://github.com/nguyentimmy/Detection-Engineering/blob/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Photos/T1059-APT.png)
