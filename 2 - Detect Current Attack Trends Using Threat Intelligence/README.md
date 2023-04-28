@@ -13,10 +13,12 @@
 
 If the threat intel report is relevant to your organization, here are some steps to be more proactive to detect and mitigate any threats coming your way.
 
-### Detecting IOC
+## Detecting IOC
 
 In this case, I will be use Defender for Endpoint as my solution to create a detection alert and threat hunting query (Which can be beneficial for the threat hunters or SOC) 
 
-### Detection on MITRE ATT&CK Techniques 
+## Detection on MITRE ATT&CK Techniques 
 
 For this quick demo, I will use one of the techniques 
+
+![Image](https://github.com/nguyentimmy/Detection-Engineering/blob/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Photos/T1059-APT.png)
