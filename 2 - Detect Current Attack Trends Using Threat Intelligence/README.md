@@ -28,6 +28,8 @@ Alternatively, you can use an [IOC parser on SOC Prime](https://tdm.socprime.com
 
 ![Image](https://github.com/nguyentimmy/Detection-Engineering/blob/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Photos/IOC-Steps.png)
 
+Since I'm using Defender for Endpoint, here is an example of an KQL script that extract IOC's from a link that contains a TXT file. This query will search for any devices connected to any IOC. A detection rule can be created.
+
 ```
 // This will search for the Indicators of Compromise (IOCs) in the form of SHA256 hashes within the link containing the TXT file.
 let EmotetDomain = externaldata(Domain: string)[@"https://raw.githubusercontent.com/Cisco-Talos/IOCs/main/2022/11/Emotet_contacted_domains.txt"] with (format="txt", ignoreFirstRecord=True);
@@ -35,6 +37,7 @@ DeviceNetworkEvents
 | where RemoteUrl in~ (EmotetDomain)
 | project Timestamp, RemoteUrl, RemoteIP, DeviceName, DeviceId, InitiatingProcessCommandLine, InitiatingProcessFileName, InitiatingProcessAccountDomain, InitiatingProcessAccountName, ReportId
 ```
+
 ### III. 
 
 ## [+] Detection on MITRE ATT&CK Techniques 
