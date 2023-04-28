@@ -37,5 +37,6 @@ You can use any security framework to identify security gaps, in this case I wil
 
 # II. Detect Current Attack Trends Using Threat Intelligence 
 
+[Intergrating Threat Intelligence](https://github.com/nguyentimmy/Detection-Engineering/tree/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence)
 
 
