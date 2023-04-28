@@ -2,7 +2,7 @@
 
 **Read the steps by the coresponding numbers on the screenshot for a better understanding.**
 
-![Photo](https://github.com/nguyentimmy/Detection-Engineering/blob/main/Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Photos/MDTI.png)
+![image](https://github.com/nguyentimmy/Detection-Engineering/blob/main/Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Photos/MDTI.png)
 
 1. Analyze the relevance of the threat intelligence to your organization's security posture.
   > Is this APT targeting a software company, government agency, or health facilities?
