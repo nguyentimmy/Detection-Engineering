@@ -1,4 +1,4 @@
-# Detection Engineering: 
+# I. Detection Engineering: 
 
 ## [+] Scope
 1. This project aims to enhance the organization's detection and response capabilities through a comprehensive approach that includes MITRE ATT&CK framework and Threat Intelligence.
@@ -22,7 +22,11 @@
 5. ***Concised and Refined Incident Response:*** Helps the security team identify threats efficently and identify them before damage can be done. 
 > Help the Security Team be more proactive
 
+# II. Automating MITRE ATT&CK Using Atomic Red Team
 
+# III. Detect Current Attack Trends Using Threat Intelligence 
+
+# IV. TBA
 ## [+] Continuous Improvement Plans (TBA - More Plans Coming Soon!)
 1. **Creating automation on SOAR playbooks:** SOAR playbooks automate response actions to security incidents based on detection and incidents. Review, update, and create playbooks to respond
 
