@@ -14,8 +14,8 @@ In this project, I will use Microsoft Sentinel and M365 Defender as my security 
 1. This project aims to enhance the organization's detection and response capabilities through a comprehensive approach that includes MITRE ATT&CK framework and Threat Intelligence.
 
 2. Two main components involve using MITRE ATT&CK and Threat Intelligence 
-- I will perform attack simulations or commands directly from the Atomic Red Team, which is based on the MITRE ATT&CK TTP’s, to test capabilities of our EDR/SIEM/SOAR.
-- I will integrate Threat Intelligence with detection expertise to keep up with the current attack trends, recent malware, and actively exploited vulnerability.
+ > I will perform attack simulations or commands directly from the Atomic Red Team, which is based on the MITRE ATT&CK TTP’s, to test capabilities of our EDR/SIEM/SOAR.
+ > I will integrate Threat Intelligence with detection expertise to keep up with the current attack trends, recent malware, and actively exploited vulnerability.
 
 3. The goal of detection engineering is to design, develop, and implement effective security solutions that can detect and respond to potential threats in a timely and efficient manner. 
 
