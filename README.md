@@ -1,15 +1,12 @@
 # I. Detection Engineering: 
 
+Detection engineering is the process of identifying and mitigating security threats by designing, implementing, and continually improving detection systems. 
+
 You can use any framework to identify gaps, in this case I will use the MITRE ATT@CK framework to perform deeper analysis. But first to break things to smaller pieces, we must identify: 
 - What do I need to detect?
-- What relevant assets are in our environment? 
+- What critical assets are in our environment to protect? 
 - What threat actors, techniques, tools, can be relevant to us?
 - What are the current attack trends and known exploited vulnerabilities? 
-
-What do I need to detect?
-What threat actors, techniques, tools, etc., are relevant to us?
-How can I demonstrate the relevance to the business?
-
 
 ## [+] Scope
 1. This project aims to enhance the organization's detection and response capabilities through a comprehensive approach that includes MITRE ATT&CK framework and Threat Intelligence.
