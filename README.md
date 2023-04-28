@@ -2,7 +2,7 @@
 
 Detection engineering is the process of identifying and mitigating security threats by designing, implementing, and continually improving the SIEM and EDR solutions. 
 
-You can use any security framework to identify gaps, in this case I will use the MITRE ATT@CK framework to perform deeper analysis. But first thing, let's break things to smaller pieces, we must identify: 
+You can use any security framework to identify security gaps, in this case I will use the MITRE ATT@CK framework to perform deeper analysis. But first thing, let's break things to smaller pieces, we must identify: 
 - What do I need to detect?
 - What critical assets are in our environment to protect? 
 - What threat actors, techniques, tools, can be relevant to us?
