@@ -32,12 +32,12 @@ You can use any security framework to identify security gaps, in this case I wil
 > Help the Security Team be more proactive
 
 ## [+] Procedures
-# I. Automating MITRE ATT&CK Using Atomic Red Team
+### I. Automating MITRE ATT&CK Using Atomic Red Team
 
-[Integrating MITRE ATT&CK](https://github.com/nguyentimmy/Detection-Engineering/tree/main/1%20-%20Automating%20MITRE%20ATT%26CK%20Using%20Atomic%20Red%20Team)
+> Please read: [Integrating MITRE ATT&CK](https://github.com/nguyentimmy/Detection-Engineering/tree/main/1%20-%20Automating%20MITRE%20ATT%26CK%20Using%20Atomic%20Red%20Team)
 
-# II. Detect Current Attack Trends Using Threat Intelligence 
+### II. Detect Current Attack Trends Using Threat Intelligence 
 
-[Intergrating Threat Intelligence](https://github.com/nguyentimmy/Detection-Engineering/tree/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence)
+> Please read: [Intergrating Threat Intelligence](https://github.com/nguyentimmy/Detection-Engineering/tree/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence)
 
 
