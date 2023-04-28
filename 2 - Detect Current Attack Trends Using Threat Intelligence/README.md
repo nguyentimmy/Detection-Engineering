@@ -1,6 +1,8 @@
 # Intergrating Threat Intelligence
 
 **Read the steps by the coresponding numbers on the screenshot for a better understanding.**
+- Have your Threat Intelligence feed, I will be using Microsoft Defender Threat Intellgence (Premium)
+- Have your EDR/SIEM Solution, I will be using Microsoft Sentinel and M365 Defender (E5 Security)
 
 ![image](https://github.com/nguyentimmy/Detection-Engineering/blob/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Photos/MDTI.png)
 
