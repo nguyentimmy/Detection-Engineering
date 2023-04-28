@@ -20,7 +20,7 @@ In this case, I will be use Defender for Endpoint as my solution to create a det
 
 ## [+] 3. Detection on MITRE ATT&CK Techniques 
 
-For this quick demo, I will use one of the techniques 
+For this quick demo, I will use one of the Attack techniques used by the threat actor, in this case it will be [T1059.001](https://atomicredteam.io/execution/T1059.001/). Check the screenshot below. 
 
 ![Image](https://github.com/nguyentimmy/Detection-Engineering/blob/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Photos/T1059-APT.png)
 
