@@ -24,12 +24,10 @@ Use the list of IOC provided by your threat intel or open source feed. In my cas
 ![Image](https://github.com/nguyentimmy/Detection-Engineering/blob/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Photos/IOC-Coinminer.png)
 
 ### II. Creating the Query based on your needs
-Alternatively
+Alternatively, you can use an [IOC parser on SOC Prime](https://tdm.socprime.com/uncoder-cti/) platform to convert into the list IOC to query that fits your SIEM/EDR Solution. It will help with the speed.
+
 ![Image](https://github.com/nguyentimmy/Detection-Engineering/blob/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Photos/IOC-Steps.png)
 
-There's multiple ways you can query.
-
-[IOC Parser](https://tdm.socprime.com/uncoder-cti/)
 
 ### III. 
 
