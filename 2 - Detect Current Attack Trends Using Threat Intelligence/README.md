@@ -11,17 +11,20 @@
 3. Determine which MITRE ATT&CK techniques are being used by the APT groups and threat actors mentioned in the report. Identify the specific vulnerabilities, devices, or company assets being exploited by these techniques.
   > Learning the TTP the attackers will use can help you proactively be ahead of the game by creating a detection based on their known attack patterns
 
-## [+] 1.
+## [+] 
 If the threat intel report is relevant to your organization, here are some steps to be more proactive to detect and mitigate any threats coming your way.
 
-## [+] 2. Detecting IOC
+## [+] Detecting IOC
 
 In this case, I will be use Defender for Endpoint as my solution to create a detection alert and threat hunting query (Which can be beneficial for the threat hunters or SOC) 
 
-## [+] 3. Detection on MITRE ATT&CK Techniques 
+## [+] Detection on MITRE ATT&CK Techniques 
 
-For this quick demo, I will use one of the Attack techniques used by the threat actor, in this case it will be [T1059.001](https://atomicredteam.io/execution/T1059.001/). Check the screenshot below. 
+I. For this quick demo, I will use one of the Attack techniques used by the threat actor, in this case it will be [T1059.001](https://atomicredteam.io/execution/T1059.001/). Check the screenshot below. 
 
 ![Image](https://github.com/nguyentimmy/Detection-Engineering/blob/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Photos/T1059-APT.png)
 
+II. On the list of possible attacks, we will choose an attack the threat actor may most likely use from the threat intel report. Let's say the threat actor is using Bloodhound, we can simulate an attack directly from the Atomic Red Team page.
 ![Image](https://github.com/nguyentimmy/Detection-Engineering/blob/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Photos/T1059.001-BloodHound.png)
+
+III.
