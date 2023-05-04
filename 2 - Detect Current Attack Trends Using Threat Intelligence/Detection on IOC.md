@@ -22,15 +22,12 @@ DeviceNetworkEvents
 ```
 
 ### III. Create a query or policy for Detection
-You can create a custom detection rule or threat hunt to detect any IOC's in your environment. here is the KQL to detect the threat. 
+You can create a custom detection rule or threat hunt to detect any IOC's in your environment. In this case, I will use the KQL that was provided on SOC prime to detect any files that contains that IOC. You create and modify the KQL on your own preference.
 
 ```
-// Query for any bloodhound related processes and files
-let BloodhoundCLI = dynamic([ 'Import-Module Sharphound.ps1' , '-collectionMethod', 'invoke-bloodhound', 'get-bloodhounddata']);
-let BloodhoundExe = dynamic(['SharpHound.exe', 'BloodHound.exe', 'Neo4j-Management.exe']);
-DeviceProcessEvents
-| where Timestamp > ago(1d)
-| where ProcessCommandLine has_any(BloodhoundCLI) or ProcessCommandLine has_any(BloodhoundExe) or FileName has_any(BloodhoundExe)
-| project Timestamp, DeviceName, DeviceId, AccountName, AccountDomain, ProcessCommandLine, FileName, FolderPath, InitiatingProcessCommandLine, InitiatingProcessFileName, ReportId
+union * 
+| where (InitiatingProcessMD5 =~ "2748c76e21f7daa0d41419725af8a134" or InitiatingProcessMD5 =~ "851d4ab539030d2ccaea220f8ca35e10" or InitiatingProcessMD5 =~ "bd0312d048419353d57068f5514240dc" or InitiatingProcessMD5 =~ "d63be89106d40f7b22e5c66de6ea5d65")
 ```
-.
+
+With Defender for Endpoint, I proactively hunt for threats in the M365 Portal, can be done within Sentinel as long as you have Data Connectors ingesting. 
+![Photo](https://github.com/nguyentimmy/Detection-Engineering/blob/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Photos/ThreatHuntDetection.png)
