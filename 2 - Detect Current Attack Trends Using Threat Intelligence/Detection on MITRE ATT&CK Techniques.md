@@ -11,7 +11,7 @@ On the list of possible attacks, we will choose an attack the threat actor may m
 ![Image](https://github.com/nguyentimmy/Detection-Engineering/blob/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Photos/T1059.001-BloodHound.png)
 
 ### III. Create a query or policy for Detection
-If you want to create a custom detection rule to detect attacks from the threat actor using Bloodhound, [(T1059.001)](https://atomicredteam.io/execution/T1059.001/), here is the KQL to detect the threat. 
+You can create a custom detection rule or threat hunt to detect attacks from the threat actor using Bloodhound, [(T1059.001)](https://atomicredteam.io/execution/T1059.001/), here is the KQL to detect the threat. 
 
 ```
 // Query for any bloodhound related processes and files
