@@ -7,7 +7,7 @@ Use the list of IOC provided by your threat intel or open source feed. In my cas
 ![Image](https://github.com/nguyentimmy/Detection-Engineering/blob/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Photos/IOC-Coinminer.png)
 
 ### II. Creating the Query based on your needs
-Alternatively, you can use an [IOC parser on SOC Prime](https://tdm.socprime.com/uncoder-cti/) platform to convert into the list IOC to query that fits your SIEM/EDR Solution. It will help speed up the proccess. 
+Alternatively, you can use an [IOC parser on SOC Prime](https://tdm.socprime.com/uncoder-cti/) platform to convert into the list IOC to query that fits your SIEM/EDR Solution. It will help speed up the proccess. However, you can also create the query of your choice on your own.
 
 ![Image](https://github.com/nguyentimmy/Detection-Engineering/blob/main/2%20-%20Detect%20Current%20Attack%20Trends%20Using%20Threat%20Intelligence/Photos/IOC-Steps.png)
 
@@ -21,4 +21,16 @@ DeviceNetworkEvents
 | project Timestamp, RemoteUrl, RemoteIP, DeviceName, DeviceId, InitiatingProcessCommandLine, InitiatingProcessFileName, InitiatingProcessAccountDomain, InitiatingProcessAccountName, ReportId
 ```
 
-### III. 
+### III. Create a query or policy for Detection
+You can create a custom detection rule or threat hunt to detect any IOC's in your environment. here is the KQL to detect the threat. 
+
+```
+// Query for any bloodhound related processes and files
+let BloodhoundCLI = dynamic([ 'Import-Module Sharphound.ps1' , '-collectionMethod', 'invoke-bloodhound', 'get-bloodhounddata']);
+let BloodhoundExe = dynamic(['SharpHound.exe', 'BloodHound.exe', 'Neo4j-Management.exe']);
+DeviceProcessEvents
+| where Timestamp > ago(1d)
+| where ProcessCommandLine has_any(BloodhoundCLI) or ProcessCommandLine has_any(BloodhoundExe) or FileName has_any(BloodhoundExe)
+| project Timestamp, DeviceName, DeviceId, AccountName, AccountDomain, ProcessCommandLine, FileName, FolderPath, InitiatingProcessCommandLine, InitiatingProcessFileName, ReportId
+```
+.
