@@ -1,10 +1,9 @@
 # Integrating MITRE ATT&CK
 
-:star: **Read the steps by the coresponding numbers on the screenshot for a better understanding.**
-- Have your Threat Intelligence feed, I will be using Microsoft Defender Threat Intellgence (Premium)
+:star: 
 - Have your EDR/SIEM Solution, I will be using Microsoft Sentinel and M365 Defender (E5 Security)
 
-![image]()
+![Photo](https://github.com/nguyentimmy/Detection-Engineering/blob/main/1%20-%20Automating%20MITRE%20ATT%26CK%20Using%20Atomic%20Red%20Team/Photos/MITRE.png)
 
 1. TBA
   > TBA
