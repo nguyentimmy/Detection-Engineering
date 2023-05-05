@@ -1,6 +1,6 @@
 # Integrating MITRE ATT&CK
 
-We are initiating a project to detect commonly known attacks, and you may choose any Red Team simulations to achieve this goal. However, for the sake of consistency, we will use Atomic Red Team as it provides a well-organized mapping of their simulations through MITRE.
+:star: We are initiating a project to detect commonly known attacks, and you may choose any Red Team simulations to achieve this goal. However, for the sake of consistency, we will use Atomic Red Team as it provides a well-organized mapping of their simulations through MITRE.
 
 :star: First, we must understand the threat actors TTP (Tatics, Technqiues, & Procedures) in this order. 
 
