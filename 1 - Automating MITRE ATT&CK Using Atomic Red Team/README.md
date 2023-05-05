@@ -11,7 +11,7 @@
 
 ## [+] Requirements 
 - [Atomic Red Team Installation](https://github.com/redcanaryco/invoke-atomicredteam/wiki/Installing-Invoke-AtomicRedTeam#install-execution-framework-and-atomics-folder) *(For more guidance please visit their page for instrusctions to install)*
-- Powershell 
+- Powershell & Bash *(Atomic Red Team requires fundamental knowledge of using both of these terminal)*
 - Sentinel or MDE
 
 ## [+] Steps
