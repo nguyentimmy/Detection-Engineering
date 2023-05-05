@@ -23,15 +23,15 @@ IEX (IWR 'https://raw.githubusercontent.com/redcanaryco/invoke-atomicredteam/mas
 Install-AtomicRedTeam -getAtomics -Force -noPayloads
 ```
 
-1. First, we will take the very first tatic on the photo above which is Initial Access. We will name the project, story, or task: 
+2. First, we will take the very first tatic on the photo above which is Initial Access. We will name the project, story, or task: 
 **"Defend and Detect: Initial Access"**
   > TBA
 
-2. TBA
+3. TBA
   > TBA
   - :link: [TBA]():exclamation:
 
-3. TBA
+4. TBA
   > TBA
   - :link: [TBA]():exclamation:
 
