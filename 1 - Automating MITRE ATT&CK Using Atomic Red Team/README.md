@@ -8,7 +8,23 @@
 
 :star: We will create a project to detect well known attacks. You can use any Red Team simulations
 
-1. First, we will take the very first tatic on the photo above which is Initial Access. We will name the project, story, or task **"Defend and Detect: Initial Access"**
+## [+] Requirements 
+- [Atomic Red Team Installation](https://github.com/redcanaryco/invoke-atomicredteam/wiki/Installing-Invoke-AtomicRedTeam#install-execution-framework-and-atomics-folder)
+- Powershell 
+- Sentinel or MDE
+
+## [+] Steps
+1. Install Atomic Red Team (In this case I am installing ART without the payloads and malware)
+```
+Install-Module -Name invoke-atomicredteam,powershell-yaml -Scope CurrentUser
+```
+```
+IEX (IWR 'https://raw.githubusercontent.com/redcanaryco/invoke-atomicredteam/master/install-atomicredteam.ps1' -UseBasicParsing);
+Install-AtomicRedTeam -getAtomics -Force -noPayloads
+```
+
+1. First, we will take the very first tatic on the photo above which is Initial Access. We will name the project, story, or task: 
+**"Defend and Detect: Initial Access"**
   > TBA
 
 2. TBA
