@@ -1,32 +1,22 @@
 # Integrating MITRE ATT&CK
 
+:star: We are initiating a project to detect commonly known attacks, and you may choose any Red Team simulations to achieve this goal. However, for the sake of consistency, we will use Atomic Red Team as it provides a well-organized mapping of their simulations through MITRE.
 :star: First, we must understand the threat actors TTP (Tatics, Technqiues, & Procedures) in this order. 
 
 ![Photo](https://github.com/nguyentimmy/Detection-Engineering/blob/main/1%20-%20Automating%20MITRE%20ATT%26CK%20Using%20Atomic%20Red%20Team/Photos/MITRE.png)
 
 *MITRE ATT&CK® is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models and methodologies in the private sector, in government, and in the cybersecurity product and service community.*
 
-:star: We will create a project to detect well known attacks. You can use any Red Team simulations
 
 ## [+] Requirements 
-- [Atomic Red Team Installation](https://github.com/redcanaryco/invoke-atomicredteam/wiki/Installing-Invoke-AtomicRedTeam#install-execution-framework-and-atomics-folder)
+- [Atomic Red Team Installation](https://github.com/redcanaryco/invoke-atomicredteam/wiki/Installing-Invoke-AtomicRedTeam#install-execution-framework-and-atomics-folder) *(For more guidance please visit their page for instrusctions to install)*
 - Powershell 
 - Sentinel or MDE
 
 ## [+] Steps
-1. Install Atomic Red Team (In this case I am installing ART without the payloads and malware)
-```
-Install-Module -Name invoke-atomicredteam,powershell-yaml -Scope CurrentUser
-```
-```
-IEX (IWR 'https://raw.githubusercontent.com/redcanaryco/invoke-atomicredteam/master/install-atomicredteam.ps1' -UseBasicParsing);
-Install-AtomicRedTeam -getAtomics -Force -noPayloads
-```
-*For more guidance please visit their page for instrusctions to install [Atomic Red Team Installation](https://github.com/redcanaryco/invoke-atomicredteam/wiki/Installing-Invoke-AtomicRedTeam#install-execution-framework-and-atomics-folder)*
+2. First, we will take the very first tatic on the photo above which is [Initial Access](https://attack.mitre.org/tactics/TA0001/). Which consists of techniques that use various entry vectors to gain their initial foothold within a network. Techniques used to gain a foothold include targeted spearphishing and exploiting weaknesses on public-facing web servers. We will name the project, story, or task: 
+  > **"Defend and Detect: Initial Access"**
 
-2. First, we will take the very first tatic on the photo above which is Initial Access. We will name the project, story, or task: 
-**"Defend and Detect: Initial Access"**
-  > TBA
 
 3. TBA
   > TBA
