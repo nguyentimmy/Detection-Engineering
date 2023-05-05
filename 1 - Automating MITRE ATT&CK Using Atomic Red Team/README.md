@@ -22,6 +22,7 @@ Install-Module -Name invoke-atomicredteam,powershell-yaml -Scope CurrentUser
 IEX (IWR 'https://raw.githubusercontent.com/redcanaryco/invoke-atomicredteam/master/install-atomicredteam.ps1' -UseBasicParsing);
 Install-AtomicRedTeam -getAtomics -Force -noPayloads
 ```
+*For more guidance please visit their page for instrusctions to install [Atomic Red Team Installation](https://github.com/redcanaryco/invoke-atomicredteam/wiki/Installing-Invoke-AtomicRedTeam#install-execution-framework-and-atomics-folder)*
 
 2. First, we will take the very first tatic on the photo above which is Initial Access. We will name the project, story, or task: 
 **"Defend and Detect: Initial Access"**
