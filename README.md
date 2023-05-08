@@ -37,6 +37,12 @@ In this project, I will use Microsoft Sentinel and M365 Defender as my security 
 
 5. ***Concised and Refined Incident Response:*** Helps the security team identify threats efficently and identify them before damage can be done. 
    > Help the Security Team be more proactive.
+   
+## [+] Requirements 
+1. Sentinel or Defender for Endpoint (Or your EDR/SIEM of choice)
+2. Atomic Red Team (Or your Red Team simulation of choice)
+3. Threat Intelligence Feed
+4. Fundamental knowledge of Powershell and Bash
 
 ## [+] Procedures
 ### I. Automating MITRE ATT&CK Using Atomic Red Team
