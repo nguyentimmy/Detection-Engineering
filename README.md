@@ -1,6 +1,6 @@
 # Detection Engineering Program: 
 
-Detection engineering is the process of identifying and mitigating security threats by designing, implementing, and continually improving the SIEM and EDR solutions capabilities. 
+Detection engineering is the process of identifying and mitigating security threats by designing, implementing, and continually improving the SIEM and EDR solutions capabilities. This project is great for Purple Teaming assessments.
 
 You can use any security framework to identify security gaps, in this case I will use the MITRE ATT@CK framework to perform deeper analysis. But first thing, let's break things to smaller pieces, we must identify: 
 - What do I need to detect?
